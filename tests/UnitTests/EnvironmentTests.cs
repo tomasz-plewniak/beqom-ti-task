@@ -25,7 +25,6 @@ public class EnvironmentTests
     {
         var env = new Environment();
 
-        // This test expects an exception to be thrown when trying to get an undefined variable.
         env.Invoking(e => e.Get("undefinedVar"))
             .Should().Throw<UndefinedSymbolException>()
             .WithMessage("Undefined symbol: undefinedVar");

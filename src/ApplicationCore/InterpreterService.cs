@@ -16,13 +16,10 @@ public class InterpreterService(IEnvironment environment) : IInterpreterService
     {
         if (ast is string symbol)
         {
-            // It's a symbol, retrieve its value from the environment.
             return environment.Get(symbol);
         }
         else if (ast is List<object> expr)
         {
-            // It's an expression list, evaluate it.
-
             if (expr.Count == 0)
             {
                 // An empty list evaluates to null.

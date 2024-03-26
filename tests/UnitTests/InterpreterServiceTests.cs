@@ -18,8 +18,8 @@ public class InterpreterServiceTests
         var input = "(define a 10)";
         var expectedTokens = new List<string> { "(", "define", "a", "10", ")" };
 
-       // var tokens = Tokenize(input);
+       var tokens = _interpreterService.Tokenize(input);
 
-       // tokens.Should().BeEquivalentTo(expectedTokens, options => options.WithStrictOrdering());
+       tokens.Should().BeEquivalentTo(expectedTokens, options => options.WithStrictOrdering());
     }
 }
