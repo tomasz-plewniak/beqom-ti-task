@@ -1,4 +1,4 @@
-﻿using ApplicationCore.Interfaces;
+using ApplicationCore.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Environment = ApplicationCore.Environment;
