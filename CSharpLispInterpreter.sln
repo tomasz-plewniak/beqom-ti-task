@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B7EE7537-56BC-4303-AC6D-43F51247296F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+		LISP_interpreter.md = LISP_interpreter.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59F95338-EB1C-4EB8-89EC-405966AAED97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{13BF0303-6FBA-4161-B74B-2FC7968D70F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{6F1DD0CE-865A-4394-BC01-A30F1512C0C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter", "src\LispInterpreter\LispInterpreter.csproj", "{011F84CA-9112-4481-B510-CAED57E386B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5} = {13BF0303-6FBA-4161-B74B-2FC7968D70F6}
+		{011F84CA-9112-4481-B510-CAED57E386B6} = {59F95338-EB1C-4EB8-89EC-405966AAED97}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011F84CA-9112-4481-B510-CAED57E386B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011F84CA-9112-4481-B510-CAED57E386B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011F84CA-9112-4481-B510-CAED57E386B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011F84CA-9112-4481-B510-CAED57E386B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
