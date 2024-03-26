@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LispInterpreter", "src\LispInterpreter\LispInterpreter.csproj", "{011F84CA-9112-4481-B510-CAED57E386B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{10BBEC0B-6B3E-439C-83AC-EBEF7A93CE1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5} = {13BF0303-6FBA-4161-B74B-2FC7968D70F6}
 		{011F84CA-9112-4481-B510-CAED57E386B6} = {59F95338-EB1C-4EB8-89EC-405966AAED97}
+		{10BBEC0B-6B3E-439C-83AC-EBEF7A93CE1B} = {59F95338-EB1C-4EB8-89EC-405966AAED97}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6F1DD0CE-865A-4394-BC01-A30F1512C0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,5 +43,9 @@ Global
 		{011F84CA-9112-4481-B510-CAED57E386B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{011F84CA-9112-4481-B510-CAED57E386B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{011F84CA-9112-4481-B510-CAED57E386B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BBEC0B-6B3E-439C-83AC-EBEF7A93CE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BBEC0B-6B3E-439C-83AC-EBEF7A93CE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BBEC0B-6B3E-439C-83AC-EBEF7A93CE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BBEC0B-6B3E-439C-83AC-EBEF7A93CE1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
