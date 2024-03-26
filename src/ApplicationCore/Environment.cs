@@ -6,14 +6,7 @@ namespace ApplicationCore;
 
 public class Environment : IEnvironment
 {
-    private readonly ILogger<Environment> _logger;
-    
     private Dictionary<string, object> symbols = new();
-
-    public Environment(ILoggerFactory loggerFactory)
-    {
-        _logger = loggerFactory.CreateLogger<Environment>();
-    }
     
     public object Get(string name)
     {
